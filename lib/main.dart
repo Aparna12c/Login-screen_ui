@@ -1,3 +1,5 @@
+// ignore_for_file: sized_box_for_whitespace
+
 import 'package:flutter/material.dart';
 
 void main() {
@@ -27,7 +29,7 @@ class MyApp extends StatelessWidget {
                 ),
               ),
               const SizedBox(
-                height: 4.0,
+                height: 6.0,
               ),
 
               // ignore: avoid_unnecessary_containers
@@ -43,8 +45,8 @@ class MyApp extends StatelessWidget {
 
               // ignore: avoid_unnecessary_containers
               Container(
-                height: 290.0,
-                width: 290.0,
+                height: 350.0,
+                width: 330.0,
                 child: const Image(
                   image: AssetImage(
                     'images/myphoto.png',
@@ -53,7 +55,7 @@ class MyApp extends StatelessWidget {
               ),
 
               const SizedBox(
-                height: 60.0,
+                height: 85.0,
               ),
 
               // ignore: avoid_unnecessary_containers
